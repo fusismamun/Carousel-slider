@@ -1,0 +1,104 @@
+    /*********************************************************
+
+    Project name: Slide carousel
+    Author:       Fusis Mamun
+    Author title: Professional Web Developer & Wordpress Expert
+    Description: Hi There! I'm a web developer and WordPress                    expert.              Over 3 years of working                  experience in  this field. I              have                great experience in Email Signature Design,                    HTML5, CSS3, PHP, Mysql, JavaScript, Jquery, and              WordPress-related work. Also, I have good                      experience with Photoshop and Illustrator. Ready to           offer my expertise! I will provide you amazing                output. I love my all clients and always first                priority is the client's 100% satisfaction. Feel              free to get in touch.
+
+    Support:     abdullahmamunbd71@gmail.com
+    Version:     1.0
+
+*********************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:ital@1&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h2,h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight: 700;
+    margin: 0;
+}
+h3{
+    font-size:14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#testmonial {
+    background: #1CCACD;
+    text-align: center;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-pad{
+    padding: 64px 0;
+}
+
+.img-cl{
+    margin: 15px;
+    text-align: center;
+}
+
+.img-cl img{
+    width: inherit !important;
+    border-radius: 50%;
+    display:inline-block;
+    margin: auto;
+    padding: 5px;
+}
+
+h2 a {
+    color: #995c00;
+}
+h3 a {
+    color:#000;
+}
+.test-item{
+    background:#fff;
+    border-radius: 10px;
+    padding:30px;
+}
+.icon-star span {
+    
+    color: #1CCACD;
+}
+#testmonial .owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#testmonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:#1CCACD;
+}
+
+@media screen  and (max-width:1199.98px){
+    .container {
+        max-width: 100%;
+        padding: 0 60px;
+    }
+}
+
+
+
+
+
+
